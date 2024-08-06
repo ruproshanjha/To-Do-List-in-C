@@ -24,3 +24,12 @@ To compile and run this program, you'll need:
 2. **Compile the Program**:
    ```bash
    gcc -o todo todo.c
+3. **Run the Program**:
+   ./todo  (on Unix-like systems)
+   todo.exe (on Windows)
+5. **Using the Program**:
+
+Upon starting the program, you will see the current task list and the menu.
+Enter 1 to add a task. You'll be prompted to enter the task description.
+Enter 2 to remove a task. You'll need to enter the task number to remove it.
+Enter 3 to exit the program.
