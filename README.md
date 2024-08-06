@@ -27,9 +27,24 @@ To compile and run this program, you'll need:
 3. **Run the Program**:
    ./todo  (on Unix-like systems)
    todo.exe (on Windows)
-5. **Using the Program**:
+4. ## Using the Program
 
 Upon starting the program, you will see the current task list and the menu.
-Enter 1 to add a task. You'll be prompted to enter the task description.
-Enter 2 to remove a task. You'll need to enter the task number to remove it.
-Enter 3 to exit the program.
+
+- **Enter `1`** to add a task. You'll be prompted to enter the task description.
+- **Enter `2`** to remove a task. You'll need to enter the task number to remove it.
+- **Enter `3`** to exit the program.
+
+## Code Overview
+
+- **`ToDoList` Struct**: Holds an array of tasks and a count of the number of tasks.
+- **`addTask` Function**: Adds a new task to the list.
+- **`removeTask` Function**: Removes a task from the list by its index.
+- **`displayHome` Function**: Displays the home screen with the task list and menu.
+- **`loadingAnimation` Function**: Shows a simple loading animation while adding or removing tasks.
+
+## Additional Notes
+
+- The program limits the task list to a maximum of 100 tasks.
+- The console text is cleared and refreshed after each operation.
+- The program features a basic loading animation when adding or removing tasks.
