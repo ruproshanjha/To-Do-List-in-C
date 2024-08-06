@@ -20,3 +20,4 @@ To compile and run this program, you'll need:
 1. **Clone or Download the Repository**:
    ```bash
    git clone https://github.com/your-username/todo-list-c.git
+   or download the ZIP file and extract it.
