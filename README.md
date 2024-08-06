@@ -21,3 +21,6 @@ To compile and run this program, you'll need:
    ```bash
    git clone https://github.com/your-username/todo-list-c.git
 or download the ZIP file and extract it.
+2. **Compile the Program**:
+   ```bash
+   gcc -o todo todo.c
