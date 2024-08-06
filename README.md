@@ -25,9 +25,10 @@ To compile and run this program, you'll need:
    ```bash
    gcc -o todo todo.c
 3. **Run the Program**:
+   ```bash
    ./todo  (on Unix-like systems)
    todo.exe (on Windows)
-4. ## Using the Program
+5. ## Using the Program
 
 Upon starting the program, you will see the current task list and the menu.
 
